@@ -16,7 +16,7 @@
             <a href="{{ url('/') }}" class="rounded-lg bg-blue-700 px-6 py-3 text-white font-semibold hover:bg-blue-800">
                 Go Home
             </a>
-            <a href="{{ route('contact.form') }}"
+            <a href="{{ Route::has('contact.show') ? route('contact.show') : url('/contact') }}"
                 class="rounded-lg border border-blue-700 px-6 py-3 text-blue-700 font-semibold hover:bg-blue-50">
                 Contact Us
             </a>

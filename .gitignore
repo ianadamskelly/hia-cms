@@ -6,8 +6,10 @@
 .phpactor.json
 .phpunit.result.cache
 /.fleet
+/.gemini
 /.idea
 /.nova
+/.opencode
 /.phpunit.cache
 /.vscode
 /.zed
